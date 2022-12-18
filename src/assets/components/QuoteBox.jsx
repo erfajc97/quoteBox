@@ -47,7 +47,7 @@ const QuoteBox = () => {
 
             <div className="conter-boton" >
 
-                <button  onClick = {change} className='btn-shuffle'  > <i className="fas fa-chevron-right"></i></button>
+                <button style={{background: baseColors[backgroundrandom].hex}} onClick = {change} className='btn-shuffle'  > <i className="fas fa-chevron-right"></i></button>
                 
             </div>
             
