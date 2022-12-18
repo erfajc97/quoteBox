@@ -45,9 +45,9 @@ const QuoteBox = () => {
             <h2 
             >{dataBase[index].author}</h2>
 
-            <div className="conter-boton">
+            <div className="conter-boton" >
 
-                <button onClick = {change} className='btn-shuffle'> <i className="fas fa-chevron-right"></i></button>
+                <button  onClick = {change} className='btn-shuffle'  > <i className="fas fa-chevron-right"></i></button>
                 
             </div>
             

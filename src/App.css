@@ -48,7 +48,7 @@
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 20px 20px 8px rgba(0, 0, 0 );
-  
+  width: 700px;
 
 }
 
@@ -92,6 +92,7 @@ h2{
 .btn-shuffle > i{
   font-size: 1.25rem;
   margin-top: 0;
+  
 }
 
 .title{
