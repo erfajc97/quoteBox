@@ -26,18 +26,15 @@ const QuoteBox = () => {
 
    const backgroundrandom = Math.floor(Math.random() *baseColors.length)
    
-//    const [colorLetter, setColorLetter] = useState(backgroundrandom)
 
    document.body.style = `background: ${baseColors[backgroundrandom].hex}`
 
-    // setColorLetter( {
-    //         color: `${baseColors[backgroundrandom].hex}`
-    //     })
+   
                     
                 
       return(
 
-          <div className="quoteBox" >
+          <div className="quoteBox" style={{color: baseColors[backgroundrandom].hex}}>
             <div className="quote">
 
                 <i className="fas fa-quote-left"></i>
