@@ -48,7 +48,7 @@
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 20px 20px 8px rgba(0, 0, 0 );
-  width: 700px;
+  
 
 }
 
@@ -76,7 +76,6 @@ h2{
   display: flex;
   justify-content: end;
   
-
 }
 .btn-shuffle{
   margin-left: 30rem;
@@ -118,3 +117,18 @@ h2{
   color: rgb(85, 2, 2);
 
 }
+
+@media screen and (max-width: 500px) {
+
+  .quoteBox{
+    width: 45%;
+  }
+
+  .btn-shuffle{
+   width: 100px;  
+  
+  }
+  
+
+}
+
